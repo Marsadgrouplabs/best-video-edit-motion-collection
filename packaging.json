@@ -1,0 +1,22 @@
+{
+  "name": "best-video-edit-motion-collection",
+  "version": "2.0.0",
+  "lite": {
+    "include_suffixes": [
+      ".md"
+    ],
+    "include_names": [
+      "LICENSE",
+      "VERSION",
+      "GUIDE.html"
+    ],
+    "exclude_dirs": [
+      "scripts",
+      "assets",
+      "img",
+      "looks",
+      "node_modules",
+      "sound-kit"
+    ]
+  }
+}

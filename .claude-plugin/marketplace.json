@@ -1,0 +1,15 @@
+{
+  "name": "marsad-best-video-edit-motion-collection",
+  "description": "Best Video Edit & Motion Collection: an always-updated bundle of AI video editing and motion tools in one skill, for any language. Silence removal, reels, word-synced captions, motion styles, real sound effects, voice dubbing and ready video types. Install all parts or only the ones you pick.",
+  "owner": {
+    "name": "Marsad Labs",
+    "url": "https://labs.marsadgroup.co"
+  },
+  "plugins": [
+    {
+      "name": "best-video-edit-motion-collection",
+      "source": "./",
+      "description": "Best Video Edit & Motion Collection: an always-updated bundle of AI video editing and motion tools in one skill, for any language. Silence removal, reels, word-synced captions, motion styles, real sound effects, voice dubbing and ready video types. Install all parts or only the ones you pick."
+    }
+  ]
+}

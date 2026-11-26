@@ -1,0 +1,123 @@
+{
+  "skill": "best-video-edit-motion-collection",
+  "core": [
+    "SKILL.md",
+    "COMPONENTS.md",
+    "components.json",
+    "NOTICE.md",
+    "templates",
+    "extras/00-reference-and-brand.md",
+    "extras/style-learning.md",
+    "extras/review-and-arabic-qa.md",
+    "extras/publish-pack.md",
+    "extras/podcast-clips.md",
+    "extras/auphonic-audio.md",
+    "extras/auphonic_trim.py",
+    "extras/local_enhance.py",
+    "extras/sfx/README.md"
+  ],
+  "components": [
+    {
+      "id": "engine",
+      "group": "engines",
+      "paths": [
+        "engine-egy"
+      ],
+      "size": "30 MB",
+      "recommended": true
+    },
+    {
+      "id": "style-hyperframes",
+      "group": "styles",
+      "paths": [
+        "styles/hyperframes"
+      ],
+      "size": "1.4 MB",
+      "recommended": true
+    },
+    {
+      "id": "style-onetake",
+      "group": "styles",
+      "paths": [
+        "styles/onetake"
+      ],
+      "size": "9.4 MB",
+      "recommended": false,
+      "warning": "non-commercial licence"
+    },
+    {
+      "id": "style-collage",
+      "group": "styles",
+      "paths": [
+        "styles/collage-broll"
+      ],
+      "size": "6.7 MB",
+      "recommended": false,
+      "warning": "needs a paid GEMINI_API_KEY"
+    },
+    {
+      "id": "style-clawd",
+      "group": "styles",
+      "paths": [
+        "styles/clawd-animation"
+      ],
+      "size": "0.2 MB",
+      "recommended": true
+    },
+    {
+      "id": "style-lemo",
+      "group": "styles",
+      "paths": [
+        "styles/lemo-opuscar"
+      ],
+      "size": "0.03 MB (downloads its library on first run)",
+      "recommended": true
+    },
+    {
+      "id": "sfx-kit",
+      "group": "sound",
+      "paths": [
+        "extras/sound-kit"
+      ],
+      "size": "1 MB",
+      "recommended": true
+    },
+    {
+      "id": "sfx-openverse",
+      "group": "sound",
+      "paths": [
+        "extras/sfx/openverse_sfx.py"
+      ],
+      "size": "8 KB",
+      "recommended": true
+    },
+    {
+      "id": "sfx-real",
+      "group": "sound",
+      "paths": [
+        "extras/sfx/real-sfx"
+      ],
+      "size": "1.2 MB",
+      "recommended": true
+    },
+    {
+      "id": "sfx-earshot",
+      "group": "sound",
+      "paths": [
+        "extras/sfx/earshot"
+      ],
+      "size": "0.5 MB (+ about 1.1 GB models on first listen, optional)",
+      "recommended": false
+    },
+    {
+      "id": "dub",
+      "group": "voice",
+      "paths": [
+        "extras/dialect-dub.md"
+      ],
+      "size": "8 KB",
+      "recommended": true,
+      "warning": "needs a paid ElevenLabs plan"
+    }
+  ]
+}
